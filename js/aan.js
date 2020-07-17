@@ -1,3 +1,5 @@
+"use strict"
+
 let map = (a,b,c,d,e) =>  d + (((a - b) / (c - b)) * (e - d))
 
 function determine_of_y(max){
